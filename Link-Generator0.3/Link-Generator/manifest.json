@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "Link-Generator",
+    "version": "0.3",
+    "description": "Generiert Links aus Aargauer Corona-Dossier.",
+    "permissions": ["https://www.aargauerzeitung.ch/dossier/Corona-Virus%20im%20Aargau"],
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_title": "Hol dir drei Links und kopiere sie ins Clipboard."
+    }
+}
